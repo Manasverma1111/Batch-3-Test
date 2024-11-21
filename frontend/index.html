@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <title>LeetCode Leaderboard</title>
 </head>
 <body class="bg-gray-900 text-white p-5">
     <!-- <canvas id="myChart" style="width:100%;max-width:600px"></canvas> -->
+    <!-- toggle mode -->
+    <div class="form-check form-switch">
+        <input class="form-check-input mode-switch" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+    </div>
+    <!-- <canvas id="myChart" style="width:100%;max-width:600px"></canvas> -->
+        <div class="marq"><marquee id="marqe"><h4 id="marq">this text will go from right to left</h4></marquee></div>
     <div class="container mx-auto my-10">
         <div class="">
             <!-- Leaderboard -->
@@ -90,5 +99,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <script src="index.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
